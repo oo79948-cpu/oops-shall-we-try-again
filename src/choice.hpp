@@ -2,16 +2,6 @@
 
 #include <string>
 
-using namespace std;
-
-struct InputParameters {
-    int lowerBound;
-    int upperBound;
-    int defaultValue;
-    string prompt;
-    string errorMessage;
-};
-
 class Choice {
     public:
     virtual ~Choice() = default;

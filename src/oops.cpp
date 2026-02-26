@@ -2,6 +2,7 @@
 #include <ostream>
 #include <string>
 #include "choice.hpp"
+#include "oops.hpp"
 
 using namespace std;
 
