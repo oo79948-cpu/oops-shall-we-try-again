@@ -12,7 +12,7 @@ bool isInteger(const string &str) {
     });
 }
 
-Choice *promptAndValidate(InputParameters params){
+Choice *promptAndValidate(InputParameters params) {
     int value;
     string valueText;
     do {

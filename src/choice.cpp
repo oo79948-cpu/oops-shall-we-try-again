@@ -1,6 +1,5 @@
 #include <iostream>
 #include <ostream>
-#include <string>
 #include "choice.hpp"
 
 using namespace std;
