@@ -15,7 +15,7 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(Catch2)
 
-add_executable(oops_test tests/oops_test.cpp src/oops.cpp)
+add_executable(oops_test tests/oops_test.cpp src/oops.cpp src/choice.cpp)
 add_executable(main main.cpp src/oops.cpp src/choice.cpp)
 
 target_link_libraries(oops_test PRIVATE Catch2::Catch2WithMain)

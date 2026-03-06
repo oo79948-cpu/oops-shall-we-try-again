@@ -1,6 +1,7 @@
 #include <iostream>
 #include <ostream>
 #include <string>
+#include <algorithm>
 #include "choice.hpp"
 #include "oops.hpp"
 
